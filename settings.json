@@ -1,0 +1,20 @@
+{
+    "vim.leader": ",",
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/usr/local/bin/nvim",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.statusBarColorControl": true,
+    "vim.insertModeKeyBindings": [
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        { "comment": "remap ; to :", "before": [ ";" ], "after": [":"] },
+        { "comment": "move 5 lines up", "before": ["c-k"], "after": ["5", "k"] },
+        { "comment": "move 5 lines down", "before": ["c-j"], "after": ["5", "j"] },
+        { "comment": "hide search highlights", "before":["<C-s>"], "after":[], "commands": [ { "command": ":nohl" } ] }
+    ]
+
+}
